@@ -145,7 +145,7 @@ def main():
         annotation_paths=ann_paths,
         label2id=label2id,
         output_jsonpath=args.output,
-        extract_num_from_imgid=True
+        extract_num_from_imgid=False #Changed here for get full filename as id of image
     )
 
 
